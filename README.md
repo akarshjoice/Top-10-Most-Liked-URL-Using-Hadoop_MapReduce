@@ -2,7 +2,7 @@
 
 Facebook has a large number of APP servers, each dealing with a particular set of users. Assume that the set of all Facebook users is distributed randomly among these servers for load balancing. Whenever a user clicks a like, an entry is made into the log file in that server with these values: 
 
-        Timestamp
+	Timestamp
 	URL
 	User’s age
 	User’s location
