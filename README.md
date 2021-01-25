@@ -8,4 +8,4 @@ Facebook has a large number of APP servers, each dealing with a particular set o
 	User’s location
 	User’s sex.
 
-Set up a MapReduce implementation that emits the like count for each URL and user demographic. Use a custom generated dataset.The Reduce functions can run in a separate server(s). Map runs in each Facebook APP Server and simply emits the link count for each URL and user demographic. The Reduce aggregates the link counts on a continuous basis and this is used to populate the dashboard.
+Set up a MapReduce implementation that emits the like count for each URL based on user demographic. Use a custom generated dataset.The Reduce functions can run in a separate server(s). Map runs in each Facebook APP Server and simply emits the link count for each URL and user demographic. The Reduce aggregates the link counts on a continuous basis and this is used to populate the dashboard.
